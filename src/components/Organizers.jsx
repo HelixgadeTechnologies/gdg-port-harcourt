@@ -3,24 +3,24 @@ import { organiser1, organiser2 } from '../assets/images'
 
 const Organizers = () => {
     const organizers = [
-        {
-            image: organiser1,
-            alt: 'organiser image',
-            name: 'Ayaosi Godfrey',
-            title: 'GDG PH Organizer',
-        },
-        {
-            image: organiser2,
-            alt: 'organiser image',
-            name: 'Jane Doe',
-             title: 'WTM Lead',
-        },
-        {
-            image: organiser1,
-            alt: 'organiser image',
-            name: 'Ayaosi Godfrey',
-            title: 'GDG PH Organizer',
-        }
+      {
+        image: organiser1,
+        alt: "organiser image",
+        name: "Ayaosi Godfrey",
+        title: "GDG PH Organizer",
+      },
+      {
+        image: organiser2,
+        alt: "organiser image",
+        name: "Ewor Peace",
+        title: "WTM Lead",
+      },
+      {
+        image: organiser1,
+        alt: "organiser image",
+        name: "Ayaosi Godfrey",
+        title: "GDG PH Organizer",
+      },
     ];
   return (
     <div className="flex flex-col md:flex-row gap-8 ">

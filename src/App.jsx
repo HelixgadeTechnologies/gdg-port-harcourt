@@ -21,7 +21,7 @@ import Socials from './components/Socials';
 const App = () => {
    const { redirectToGDG, redirectToWhatsApp } = useRedirect();
   return (
-    <div className="font-satoshi">
+    <div className="font-plusJakarta">
       <header className="bg-secondary text-primary grid justify-center items-center pb-[111px]">
         <Nav />
         <HeroCard />
@@ -64,7 +64,7 @@ const App = () => {
           </section>
         </Element>
         {/* //Upcoming events section ends  */}
-        
+
         {/* Organizers section starts */}
         <Element name="team">
           <section className="grid justify-center items-center mt-20  lg:mt-28 px-6 lg:px-20 xl:px-36 pb-16 md:pb-28 relative bg-secondary">

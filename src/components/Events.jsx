@@ -15,7 +15,7 @@ const Events = () => {
         <p className="font-bold text-[22px] md:text-[44px] text-black">
           GDG Port Harcout - International Womens Day
         </p>
-        <p className=" text-lg xl:text-2xl text-black">
+        <p className=" text-lg xl:text-2xl text-black font-medium">
           International Women’s Day (IWD) is Women Techmakers’ largest annual
           campaign where Ambassador host and speak at events all around the
           world during the months of March and April in celebration of this

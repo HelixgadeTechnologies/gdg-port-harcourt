@@ -10,9 +10,24 @@ export const RedirectProvider = ({ children }) => {
   const redirectToWhatsApp = () => {
     window.open("https://chat.whatsapp.com/8DxFlE14fO21PxMQcTOfoh", "_blank");
   };
+  const redirectToTwitter = () => {
+    window.open("https://twitter.com/GDGPHC", "_blank");
+  };
+  const redirectToFacebook = () => {
+    window.open("https://web.facebook.com/gdgportharcourt", "_blank");
+  };
+  const redirectToLinkedin = () => {
+    window.open(
+      "https://www.linkedin.com/company/google-developer-group-port-harcourt/",
+      "_blank"
+    );
+  };
+  const redirectToInsta = () => {
+    window.open("https://www.instagram.com/gdgphc/", "_blank");
+  };
 
   return (
-    <RedirectContext.Provider value={{ redirectToGDG, redirectToWhatsApp }}>
+    <RedirectContext.Provider value={{ redirectToGDG, redirectToWhatsApp, redirectToTwitter, redirectToFacebook, redirectToLinkedin, redirectToInsta }}>
       {children}
     </RedirectContext.Provider>
   );

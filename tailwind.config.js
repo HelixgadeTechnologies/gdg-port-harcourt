@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         satoshi: ["satoshi", "sans-serif"],
+        plusJakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
       backgroundImage: {
         banner: "url('/src/assets/images/banner.png')",

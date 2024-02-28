@@ -15,7 +15,7 @@ const About = () => {
       <h3 className="text-3xl md:text-4xl lg:text-[44px] font-[900] mt-24">
         About Us
       </h3>
-      <p className="  text-lg xl:text-2xl">
+      <p className="  text-lg xl:text-2xl font-medium">
         GDG Port Harcourt welcomes you to our website. As we've created a
         vibrant space for enthusiasts keen on harnessing the power of Google and
         other cutting-edge software development technologies. Our community
